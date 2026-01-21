@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mitt Vite-projekt</title>
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="../src/css/style.css">
   </head>
 
   <body>
     <header>
       <h1>Mitt Vite-projekt</h1>
+
+      <button class="menu-toggle" aria-label="Öppna meny">
+        <img src="../src/images/menu-ikon.svg" alt="Meny">
+      </button>
 
       <nav>
         <ul>
@@ -24,7 +28,7 @@
       <section>
         <h2>Arbetsprocess</h2>
         
-        <ol>
+        <ol id="process">
             <li>Jag började med att öppna terminalen och skapa en ny projektmapp. Detta genom att 
                 skriva in <b>nmp create vite@latest Laboration-1-Vite-Automatisering</b>. Därefter
                 fyllde jag i det formulär som dyker upp.</li>
@@ -37,7 +41,7 @@
 
             <li>Gjorde sedan en ny branch i mitt repository, en brach som döptes till <b>development</b>. 
                 Detta gjorde jag genom att i terminalen skriva <b>git checkout -b development / git push 
-                -u origin development</b></li>
+                -u origin development</b>.</li>
 
             <li>Skapade webbplatsen med hjälp av HTML, CSS och JavaScript.</li>
         </ol>
@@ -48,6 +52,6 @@
       <h2>Created by Alva Stern</h2>
       <p>&copy;2026 All rights reserved</p>
     </footer>
-    <script type="module" src="/src/js/main.js"></script>
+    <script type="module" src="../src/js/main.js"></script>
   </body>
 </html>
