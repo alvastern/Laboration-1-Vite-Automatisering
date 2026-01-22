@@ -140,6 +140,19 @@ footer {
     main section p {
         width: 50vw;
     }
+
+    .bilder-display {
+        flex-direction: column;
+    }
+
+    .bild {
+        width: 80vw;
+        height: auto;
+    }
+
+    #process {
+        width: 50vw;
+    }
 }
 
 @media (max-width: 600px) {
@@ -183,5 +196,18 @@ footer {
 
     main section p {
         width: 80vw;
+    }
+
+    .bilder-display {
+        flex-direction: column;
+    }
+
+    .bild {
+        width: 80vw;
+        height: auto;
+    }
+
+    #process {
+        width: 70vw;
     }
 }
