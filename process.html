@@ -30,8 +30,11 @@
         
         <ol id="process">
             <li>Jag började med att öppna terminalen och skapa en ny projektmapp. Detta genom att 
-                skriva in <b>nmp create vite@latest Laboration-1-Vite-Automatisering</b>. Därefter
+                skriva in <b>npm create vite@latest Laboration-1-Vite-Automatisering</b>. Därefter
                 fyllde jag i det formulär som dyker upp.</li>
+
+            <li>Kontrollerade att allt som skulle hamna i .gitignore hade hamnat där, exempelvis 
+                node_modules.</li>
 
             <li>Installerade sedan SASS till projektet. Detta gjorde jag genom att i terminalen skriva 
                 <b>npm install sass --save-dev</b>.</li>
@@ -39,11 +42,29 @@
             <li>Skapade ett repository på Github. Kopplade sedan mitt projekt till Github och gjorde min 
                 första commit. Detta gjorde jag genom <b>git init, git add, git push och git commit -m ""</b>.</li>
 
-            <li>Gjorde sedan en ny branch i mitt repository, en brach som döptes till <b>development</b>. 
+            <li>Säkerställde sedan i min projektmapp att jag skillde på arbetsfiler och publiceringsfiler. 
+              Alla filer som jag arbetade med skulle ligga i root eller src, sedan skulle publiceringsfilerna 
+              hamna i dist-mappen.</li>
+
+            <li>Gjorde sedan en ny branch i mitt repository, en branch som döptes till <b>development</b>. 
                 Detta gjorde jag genom att i terminalen skriva <b>git checkout -b development / git push 
                 -u origin development</b>.</li>
 
-            <li>Skapade webbplatsen med hjälp av HTML, CSS och JavaScript.</li>
+            <li>Skapade en webbplats med tre undersidor med hjälp av HTML, CSS och JavaScript. Webbplatsen 
+              gjordes även fullt responsiv.</li>
+
+            <li>Installerade den plugin från Vite som möjliggjorde automatiserad optimering av bilder. 
+                Optimerade sedan bilderna automatiskt genom att i <b>vite.config.js</b> beskriva vilka 
+                bildformat som skulle ha vilken kvalitet. Kontrollerade sedan att det fungerade genom 
+                <b>npm run build</b>.</li>
+
+            <li>Genom <b>npm run build</b>, blev css- och och js-filen minifierade automatiskt genom 
+            användningen av verktyget Vite.</li>
+
+            <li>Använde mig av <b>npm run preview</b> för att allt i dist-mappen fungerar som det ska.</li>
+
+            <li>Bytte branch från development till main och pushade mitt projekt till Github pages, 
+              vilket skapade en automatisk publicering.</li>
         </ol>
       </section>
     </main>
