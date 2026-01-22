@@ -48,6 +48,12 @@ header nav ul a:hover {
     color: white;
 }
 
+header nav a.active {
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 .menu-toggle {
     display: none;
     font-size: 2rem;
