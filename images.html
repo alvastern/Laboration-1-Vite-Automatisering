@@ -12,9 +12,9 @@
       <h1>Mitt Vite-projekt</h1>
 
       <button class="menu-toggle" aria-label="Öppna meny">
-        <img src="public/images/menu-ikon.svg" alt="Meny">
+        <img src="/public/images/menu-ikon.svg" alt="Meny">
       </button>
-      
+
       <nav>
         <ul>
           <li><a href="/">Startsida</a></li>
@@ -26,16 +26,19 @@
 
     <main>
       <section>
-        <h2>Information om uppgiften</h2>
+        <h2>Bilder</h2>
 
-        <p>Denna uppgift går ut på att jag som student ska lära mig hur NodeJS kan användas för 
-          att förenkla arbetet med att utveckla en webbplats. I detta fall ska ett kommandobaserat 
-          verktyg användas för automatisering där jag har valt att använda mig av verktyget Vite. <br>
-          <br>
-          Jag ska alltså skapa en publicerad webbplats där jag har använt mig av verktyget Vite 
-          för att automatisera vissa uppgifter, samt versionshantera med Git och arbeta med branches 
-          i Github.
-        </p>
+        <div class="bilder-display">
+            <img src="/public/images/blomsteräng.webp" alt="En blomsteräng" class="bild">
+            <img src="/public/images/forest-lake.webp" alt="En sjö i skogen" class="bild">
+            <img src="/public/images/forest-nice.webp" alt="Djupt in i skogen" class="bild">
+        </div>
+
+        <div class="bilder-display">
+            <img src="/public/images/forest-sunshine.webp" alt="Solsken i skogen" class="bild">
+            <img src="/public/images/sunset-field.webp" alt="E fält i solnedgången" class="bild">
+        </div>
+        
       </section>
     </main>
 
@@ -43,7 +46,6 @@
       <h2>Created by Alva Stern</h2>
       <p>&copy;2026 All rights reserved</p>
     </footer>
-
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
